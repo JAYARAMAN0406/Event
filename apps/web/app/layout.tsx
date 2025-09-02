@@ -17,7 +17,25 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={geist.className}>{children}</body>
+      <body>
+       <div
+  className="
+    font-sans min-h-screen 
+    bg-[url('/events.jpg')] bg-no-repeat bg-center bg-cover 
+    sm:bg-cover md:bg-fixed 
+    grid place-items-center p-4 sm:p-8 md:p-12 lg:p-20
+  "
+>
+  <main
+    className="p-6 sm:p-8 md:p-8 text-center bg-white/70 rounded-2xl shadow-lg 
+               w-full max-w-3xl"
+  >
+    {children}
+  </main>
+</div>
+
+      </body>
     </html>
   );
 }
+
