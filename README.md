@@ -24,11 +24,14 @@ This Turborepo includes the following packages/apps:
 
 Each package/app is 100% [TypeScript](https://www.typescriptlang.org/).
 
-# Install dependencies
+## Install dependencies
 pnpm install
 
-# Run project
+## Run project
 pnpm run dev
+
+## Build project
+npm run build
 
 ### Building packages/ui
 
